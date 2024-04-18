@@ -35,4 +35,10 @@ Folder: /java21sb3client
       - Injecting RestTemplate in Service Class
   - In: java21sb3client.feignclient
     - Features:
-      - Declaring a FeignClient called QuoteFeignClient (client which consumes /api) 
+      - Declaring a FeignClient called QuoteFeignClient (client which consumes /api)
+
+- Spring Boot Actuator 
+  - In: java21sb3.actuatorservice
+    - Features:
+      - Simple Controller
+      - Spring Boot Actuator dependency was added in this project
