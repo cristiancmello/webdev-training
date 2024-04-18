@@ -1,2 +1,4 @@
 - Adding Java Beans analyzer for Spring Boot
 - java21sb3.payroll: https://spring.io/guides/tutorials/rest (section Simplifying Link Creation)
+- Consuming a RESTful Web Service: https://spring.io/guides/gs/consuming-rest
+
