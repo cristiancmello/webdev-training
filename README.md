@@ -11,4 +11,10 @@ Folder: /java21sb3
 ## Topics covered
 
 - Building a RESTful Web Service
-  - In: java21sb3
+  - In: java21sb3.payroll
+    - Features: 
+      - JPA Overview, 
+      - Spring Web, 
+      - Spring Basic Class Configuration (with database seeding)
+      - Spring HATEOAS, 
+      - REST
