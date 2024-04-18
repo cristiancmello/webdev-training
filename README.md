@@ -22,3 +22,9 @@ Folder: /java21sb3client
       - Spring Basic Class Configuration (with database seeding)
       - Spring HATEOAS, 
       - REST
+
+- Consuming a RESTful Web Service
+  - In: java21sb3.consumingrest.server
+    - Features:
+      - REST Controller
+      - Server Port Customizer Component Class
