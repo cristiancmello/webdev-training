@@ -1,5 +1,7 @@
-package com.ccmello.java21sb3client.resttemplate;
+package com.ccmello.java21sb3client;
 
+import com.ccmello.java21sb3client.feignclient.QuoteFeignClient;
+import com.ccmello.java21sb3client.resttemplate.QuoteService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
@@ -7,8 +9,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
-
-import java.util.stream.Collectors;
 
 @SpringBootApplication
 @EnableFeignClients

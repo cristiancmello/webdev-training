@@ -28,3 +28,11 @@ Folder: /java21sb3client
     - Features:
       - REST Controller
       - Server Port Customizer Component Class
+      - Exposing /api (Quote resource)
+  - In: java21sb3client.resttemplate
+    - Features:
+      - RestTemplate Bean declaration in Configuration Class
+      - Injecting RestTemplate in Service Class
+  - In: java21sb3client.feignclient
+    - Features:
+      - Declaring a FeignClient called QuoteFeignClient (client which consumes /api) 

@@ -1,5 +1,6 @@
-package com.ccmello.java21sb3client.resttemplate;
+package com.ccmello.java21sb3client.feignclient;
 
+import com.ccmello.java21sb3client.resttemplate.Quote;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
