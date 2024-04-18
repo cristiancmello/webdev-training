@@ -1,0 +1,11 @@
+package com.ccmello.java21sb3.actuatorservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Application {
+  public static void main(String... args) {
+    SpringApplication.run(Application.class);
+  }
+}
